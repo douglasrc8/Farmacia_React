@@ -1,8 +1,9 @@
-import { TailSpin } from "react-loader-spinner";
 
-import { Dispatch, SetStateAction, useEffect, useState } from "react";
+import { TailSpin } from "react-loader-spinner";
 import Categoria from "../../../models/Categoria";
+import { buscar } from "../../../services/Service";
 import CardCategoria from "../cardcategoria/CardCategoria";
+import { useEffect, useState } from "react";
 
 function ListarCategorias() {
 
@@ -48,7 +49,3 @@ function ListarCategorias() {
 }
 
 export default ListarCategorias
-
-function buscar(_arg0: string, _setCategorias: Dispatch<SetStateAction<Categoria[]>>) {
-    throw new Error("Function not implemented.");
-}

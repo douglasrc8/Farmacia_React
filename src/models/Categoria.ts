@@ -1,5 +1,7 @@
-export default interface Categoria{
-    nome: string | number | readonly string[] | undefined;
-    id: number,
-    tipo: string
+import Produto from "./Produto";
+
+export default interface Categoria {
+    id: number;
+    nome: string;
+    produto?: Produto | null;
 }

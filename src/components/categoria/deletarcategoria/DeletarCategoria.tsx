@@ -1,7 +1,7 @@
-import { useState, useEffect, Dispatch, SetStateAction } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import Categoria from "../../../models/Categoria";
-
+import { buscar, deletar } from "../../../services/Service";
 
 function DeletarCategoria() {
 
@@ -61,11 +61,3 @@ function DeletarCategoria() {
 }
 
 export default DeletarCategoria
-
-function buscar(_arg0: string, _setCategoria: Dispatch<SetStateAction<Categoria>>) {
-    throw new Error("Function not implemented.");
-}
-function deletar(_arg0: string) {
-    throw new Error("Function not implemented.");
-}
-

@@ -1,8 +1,8 @@
-import { useState, useEffect, ChangeEvent, Dispatch, SetStateAction } from "react";
+import { useState, useEffect, ChangeEvent } from "react";
 import { RotatingLines } from "react-loader-spinner";
 import { useNavigate, useParams } from "react-router-dom";
 import Categoria from "../../../models/Categoria";
-
+import { atualizar, buscar, cadastrar } from "../../../services/Service";
 
 function FormCategoria() {
 
@@ -100,15 +100,4 @@ function FormCategoria() {
 }
 
 export default FormCategoria
-
-function buscar(_arg0: string, _setCategoria: Dispatch<SetStateAction<Categoria>>) {
-    throw new Error("Function not implemented.");
-}
-function atualizar(_arg0: string, _categoria: Categoria, _setCategoria: Dispatch<SetStateAction<Categoria>>) {
-    throw new Error("Function not implemented.");
-}
-
-function cadastrar(_arg0: string, _categoria: Categoria, _setCategoria: Dispatch<SetStateAction<Categoria>>) {
-    throw new Error("Function not implemented.");
-}
 
