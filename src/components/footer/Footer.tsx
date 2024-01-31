@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 function Footer() {
     return (
-        <div className="flex flex-col justify-center items-center bg-rose-950 text-rose-50 p-2 gap-1 w-screen">
+        <div className="flex flex-col justify-center items-center bg-blue-950 text-rose-50 p-2 gap-1 w-screen">
             <h1 className="text-lg font-semibold">Farmacia Generation | 2024</h1>
             <p>Acesse nossas redes</p>
             <div className="flex gap-4">

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 function Navbar() {
     return (
         <div>
-            <div className="px-6 py-4 text-lg bg-rose-950 text-rose-50 font-semibold w-screen">
+            <div className="px-6 py-4 text-lg bg-blue-950 text-rose-50 font-semibold w-screen">
                 <div className="flex justify-between">
 
                     <Link to={'/'} className="flex gap-5 text-2xl"> <FirstAid size={34}></FirstAid> Farmácia Primavera</Link>
